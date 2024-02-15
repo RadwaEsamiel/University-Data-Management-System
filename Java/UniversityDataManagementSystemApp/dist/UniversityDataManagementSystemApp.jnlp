@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="UniversityDataManagementSystemApp.jnlp">
+  <information>
+    <title>UniversityDataManagementSystemApp</title>
+    <vendor>Smart Lap</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="UniversityDataManagementSystemApp.jar" size="1610658" download="eager" />
+    <jar href="lib\ojdbc8.jar" size="6980481" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="UniversityDataManagementSystemApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="universityStudents.UniversityDataManagementSystemApp"  name="UniversityDataManagementSystemApp" />
+  <update check="always"/>
+</jnlp>

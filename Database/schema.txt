@@ -1,0 +1,7 @@
+CREATE USER UniversityDatabase IDENTIFIED BY 123;
+
+grant DBA to UniversityDatabase ;
+
+commit;
+
+Grant datapump_exp_full_database to UniversityDatabase ;

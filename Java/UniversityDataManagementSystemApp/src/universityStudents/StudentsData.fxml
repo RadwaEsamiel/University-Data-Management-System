@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@mainpage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="universityStudents.StudentsDataController">
+
+    <children>
+
+        <VBox fx:id="root" minWidth="200.0" prefHeight="781.0" prefWidth="250.0" styleClass="root" stylesheets="@mainpage.css">
+
+            <children>
+
+                <AnchorPane fx:id="side_ankerpane" minHeight="500.0" minWidth="200.0" prefHeight="600.0" prefWidth="150.0" styleClass="side_ankerpane" stylesheets="@mainpage.css">
+               <children>
+                  <VBox fx:id="pain_top" layoutX="10.0" layoutY="37.0" minWidth="170.0" prefHeight="66.0" prefWidth="230.0" styleClass="pain_top" stylesheets="@mainpage.css">
+                     <children>
+                  
+                          <AnchorPane fx:id="main_pane" prefHeight="67.0" prefWidth="222.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="172.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@kisspng-hamburger-button-computer-icons-menu-user-interfac-5c0252cad28b76.4907960615436561388624.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="68.0" layoutY="7.0" prefHeight="55.0" prefWidth="110.0" text="STUDENTS" textFill="#b5651d">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                  
+                          </AnchorPane>
+                     </children></VBox>
+                  <Button fx:id="department_info" layoutX="25.0" layoutY="270.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="courses_info" text="    Departments">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="gpacheck" layoutX="23.0" layoutY="130.0" minHeight="45.0" minWidth="200.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="courses_info" text="Reports ">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="registerations" layoutX="25.0" layoutY="340.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="courses_info" text="         Registerations">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="courses_info" layoutX="25.0" layoutY="200.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="courses_info" text="courses ">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="lougout" layoutX="75.0" layoutY="490.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" styleClass="courses_info" text="LOGOUT">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="15.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="35.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@transparent-graduation-by-trainee-level-ucsf-helen-diller-family-comprehe5d96e29ea98e08.4453840915701695026945.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="35.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kisspng-education-teacher-student-academic-department-univ-teacher-blackboard-5b49cb11756279.9427228215315627694808.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="35.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kisspng-course-teacher-curriculum-education-learning-hand-saw-5ab62a46bdeea6.578051271521887814778.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="43.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kisspng-dean-s-list-student-academic-term-undergraduate-ed-prize-5abf35c30de470.1495281315224805790569.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="150.0" layoutX="88.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@—Pngtree—university%20logo%20in%20flat%20style_8743732.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="14.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@kisspng-android-directory-icon-friends-png-photos-5a75a9b3e18180.6501645615176605959237.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="home" layoutX="25.0" layoutY="410.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="200.0" styleClass="courses_info" text="Home Page">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="35.0" fitWidth="45.0" layoutX="30.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../UniversityCourses/icons8-home-80.png" />
+                     </image>
+                  </ImageView>
+               </children>
+
+                </AnchorPane>
+
+            </children>
+
+        </VBox>
+      <BorderPane fx:id="center" prefHeight="600.0" prefWidth="552.0">
+         <center>
+            <TableView fx:id="students_data" editable="true" fixedCellSize="30.0" prefHeight="460.0" prefWidth="490.0" styleClass="table-view" tableMenuButtonVisible="true" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn fx:id="ALL_STUDENT_ID" prefWidth="100.0" text="STUDENT ID" />
+                  <TableColumn fx:id="STUDENT_NAME" prefWidth="135.0" text="FIRST NAME" />
+                  <TableColumn fx:id="STUDENT_FIRST_NAME" prefWidth="135.0" text="LAST NAME" />
+                  <TableColumn fx:id="DEPARTMENT_student" minWidth="0.0" prefWidth="135.0" text="DEPARTMENT ID" />
+               </columns>
+            </TableView>
+         </center>
+         <top>
+            <AnchorPane minHeight="70.0" minWidth="400.0" prefHeight="70.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="additional" layoutX="22.0" layoutY="15.0" prefHeight="40.0" prefWidth="508.0" styleClass="additional">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="10.0" minHeight="10.0" minWidth="10.0" prefHeight="40.0" prefWidth="487.0" text="University | Freedom Through Knowledge" textFill="#b5651d" wrapText="true">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="25.0" />
+                           </font>
+                        </Label>
+                     </children></VBox>
+               </children></AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane minHeight="70.0" minWidth="400.0" prefHeight="70.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="add_Button" layoutX="20.0" layoutY="10.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" styleClass="add_Button" text="Add Student">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="update_Button" alignment="CENTER_RIGHT" layoutX="380.0" layoutY="10.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" styleClass="add_Button" text="Update student Data" textAlignment="JUSTIFY">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="remove_Button" layoutX="200.0" layoutY="10.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" styleClass="add_Button" text="Remove student">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="300.0" prefWidth="20.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane prefHeight="300.0" prefWidth="20.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+
+    </children>
+  <stylesheets>
+        <URL value="@mainpage.css" />
+</stylesheets>
+</HBox>

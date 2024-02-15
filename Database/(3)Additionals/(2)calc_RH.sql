@@ -1,0 +1,97 @@
+CREATE OR REPLACE PROCEDURE calculate_all_students_hours(
+  p_department_id IN NUMBER
+)
+IS
+BEGIN
+  FOR student_rec IN (SELECT DISTINCT STUDENT_ID FROM Registration WHERE DEPARTMENT_ID = p_department_id)
+  LOOP
+    students_totregistered_hours(student_rec.STUDENT_ID, p_department_id);
+  END LOOP;
+END calculate_all_students_hours;
+/
+
+BEGIN
+  calculate_all_students_hours(101);
+END;
+/
+
+BEGIN
+  calculate_all_students_hours(102);
+END;
+/
+BEGIN
+  calculate_all_students_hours(103);
+END;
+/
+BEGIN
+  calculate_all_students_hours(104);
+END;
+/
+BEGIN
+  calculate_all_students_hours(105);
+END;
+/
+BEGIN
+  calculate_all_students_hours(106);
+END;
+/
+BEGIN
+  calculate_all_students_hours(107);
+END;
+/
+BEGIN
+  calculate_all_students_hours(108);
+END;
+/
+BEGIN
+  calculate_all_students_hours(109);
+END;
+/
+BEGIN
+  calculate_all_students_hours(110);
+END;
+/
+BEGIN
+  calculate_all_students_hours(111);
+END;
+/
+BEGIN
+  calculate_all_students_hours(112);
+END;
+/
+BEGIN
+  calculate_all_students_hours(113);
+END;
+/
+BEGIN
+  calculate_all_students_hours(114);
+END;
+/
+BEGIN
+  calculate_all_students_hours(114);
+END;
+/
+BEGIN
+  calculate_all_students_hours(115);
+END;
+/
+BEGIN
+  calculate_all_students_hours(116);
+END;
+/
+BEGIN
+  calculate_all_students_hours(117);
+END;
+/
+BEGIN
+  calculate_all_students_hours(118);
+END;
+/
+BEGIN
+  calculate_all_students_hours(119);
+END;
+/
+BEGIN
+  calculate_all_students_hours(120);
+END;
+/

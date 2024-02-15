@@ -1,0 +1,109 @@
+/* LoginForm.css */
+#login_form {
+    -fx-background-color: beige;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+}
+
+
+.login-btn {
+    -fx-background-color: #b5651d; /* Light brown */
+    -fx-text-fill: #ffffff; /* White */
+    -fx-pref-width: 250;
+    -fx-pref-height: 50;
+}
+
+.header {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 28.0;
+    -fx-text-fill: #b5651d; /* Light brown */
+}
+
+/* mainpage.css */
+.main-stack-pane {
+    -fx-border-color: #b5651d; /* Darker border color */
+    -fx-border-width: 2; /* Border width */
+    -fx-padding: 10; /* Padding for better visibility */
+}
+
+
+.side_ankerpane{
+     -fx-background-color:#cf702767;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: dotted;
+    -fx-border-color: #b5651d;
+}
+
+.root{
+    -fx-background-color:beige;
+}
+
+.center{
+    -fx-background-color:beige;
+}
+
+.main{
+    -fx-background-color:beige;
+}
+
+.main_pain{
+    -fx-background-color:beige;
+}
+
+
+
+
+.pain_top{
+     -fx-background-color:beige;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.courses_info{
+    -fx-background-color: beige; 
+    -fx-text-fill: #b5651d;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+
+.table-view {
+    -fx-border-color: #cf702767; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #b5651d; /* Header background color */
+}
+
+.table-view .column-header {
+    -fx-text-fill: white; /* Text color */
+}
+
+
+
+.add_Button {
+    -fx-background-color: #b5651d; /* Light brown */
+    -fx-text-fill: #ffffff; /* White */
+   
+}
+
+.additional {
+    -fx-background-color: #ffffff; /* Light brown */
+
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+
+   
+}
+
+
+.upd_field{
+    -fx-background-color: #cf702767; /* Light brown */
+    -fx-text-fill: #ffffff; /* White */
+   
+}

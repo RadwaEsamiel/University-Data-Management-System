@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.net.URL?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="300.0" prefHeight="414.0" prefWidth="540.0" styleClass="main-stack-pane" stylesheets="@mainpage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UniversityReporting.GPAtableController">
+   <children>
+      <DialogPane layoutX="15.0" layoutY="4.0" minWidth="350.0" prefHeight="200.0" prefWidth="400.0">
+         <content>
+            <AnchorPane id="AnchorPane" minHeight="150.0" minWidth="300.0" prefHeight="150.0" prefWidth="300.0" styleClass="center" stylesheets="@mainpage.css">
+               <children>
+                  <TableView fx:id="GPAtable" layoutX="-3.0" layoutY="26.0" prefHeight="331.0" prefWidth="516.0">
+                    <columns>
+                      <TableColumn fx:id="Dep_cc" prefWidth="90.0" text="Department ID" />
+                      <TableColumn fx:id="STUDENT_IDcc" text="Student ID" />
+                        <TableColumn fx:id="required_credi" prefWidth="102.0" text="Required Credits " />
+                        <TableColumn fx:id="registered_ho" prefWidth="106.0" text="Registered Hours " />
+                        <TableColumn fx:id="GPA_cc" prefWidth="65.0" text="GPA" />
+                        <TableColumn fx:id="RESULT" prefWidth="65.0" text="RESULT" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+         
+      
+         <stylesheets>
+        <URL value="@mainpage.css" />
+         </stylesheets>
+         <header>
+            <AnchorPane minWidth="400.0" prefHeight="46.0" prefWidth="400.0" styleClass="center" stylesheets="@mainpage.css">
+               <children>
+                  <VBox fx:id="additional" layoutX="-6.0" layoutY="12.0" prefHeight="47.0" prefWidth="524.0" styleClass="additional">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" minHeight="10.0" minWidth="10.0" prefHeight="40.0" prefWidth="300.0" text="GPA Data " textFill="#b5651d" wrapText="true">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="27.0" />
+                           </font>
+                        </Label>
+                     </children></VBox>
+                  <ImageView fitHeight="70.0" fitWidth="73.0" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@—Pngtree—university%20logo%20in%20flat%20style_8743732.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </header>
+         <graphic>
+            <AnchorPane minWidth="150.0" prefHeight="150.0" prefWidth="150.0" styleClass="center" stylesheets="@mainpage.css" />
+         </graphic>
+       
+      </DialogPane>
+   </children>
+</AnchorPane>
