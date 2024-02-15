@@ -15,10 +15,10 @@ Grades: Record student grades for courses, capturing student ID, student grade, 
 
 GPA: Store student GPA details, including student ID, department ID, required credits, student GPA, registered hours, and final result.
 
-3. SQL Implementation:
+2. SQL Implementation:
 Developed SQL scripts to construct the database schema, populated it with sample data, tested, and validated its correctness.
 
-4. PLSQL Implementation:
+3. PLSQL Implementation:
 Implemented a series of triggers and procedures to maintain data integrity and automate various processes within the system:
 
 Update Registration Schedule Trigger: Ensures that the schedule is updated in the Registration table when changes are made in the Departments courses table.
